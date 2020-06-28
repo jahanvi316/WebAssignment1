@@ -1,0 +1,72 @@
+.header { 
+    text-align: center;
+    padding: 15px;
+    font-family: "Brush Script MT";
+}
+
+.headerBar {
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    justify-content: center;
+}
+
+.headerBar li {
+    float: left;
+    padding: 25;
+}
+
+.image {
+    float: right;
+    padding-right: 30%;
+}
+
+.personalInfo {
+    float: left;
+}
+
+.favs{
+    float: left;
+}
+
+table{
+    display: inline-flex;
+    margin-top: 2em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+
+}
+
+table, tr:nth-child(odd){
+    background-color: lightpink;
+}
+
+table, tr:nth-child(even){
+    background-color: lightskyblue;
+}
+
+a:hover{
+    text-decoration: wavy;
+    color: red;
+} 
+
+.quote{
+    font-family: "Brush Script MT";
+    font-size: 30;
+    padding: 5;
+    align-items: center;
+}
+
+body{
+    align-items: center;
+    padding-left: 15em;
+}
+
+.boldRed{
+    color: red;
+    font-weight: bold;
+}
